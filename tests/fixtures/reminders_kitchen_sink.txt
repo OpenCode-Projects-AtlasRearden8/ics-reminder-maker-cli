@@ -1,0 +1,9 @@
+# Kitchen-sink fixture: comments, blanks, escaping hazards, long lines,
+# repeats, ranges, various lead-day spellings and orders.
+
+# Trailing comment block explains nothing important
+Painting window | 2026-09-01..2026-09-10 | 7,3,1,0 | none | Budget, bid; check references
+Passport, visas & "papers" | 2030-06-01 | 180
+Pet vaccine booster | 2026-11-05 | 14,0 | yearly | \backslash ;semi ,comma
+Smoke detector batteries | 2027-04-01 | 0 | yearly
+Househould deep clean | 2027-01-02 | 90,60,30,14,7,3,0 | yearly | change furnace filter: replace with a really long note value that will远远 exceed seventy five octets and force line folding in the output file

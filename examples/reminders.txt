@@ -1,0 +1,11 @@
+# One reminder per line. Fields are separated by |:
+#   Name | date | lead days | recurrence | note
+# Only the name and date are required. Lines starting with # are comments.
+# Dates: YYYY-MM-DD for a single day, YYYY-MM-DD..YYYY-MM-DD for a window.
+# Lead days: comma-separated days before the event when you want an alert.
+
+License renewal | 2027-01-15 | 30,7,0 | yearly | Bring checkbook and ID
+Insurance window | 2026-11-01..2026-11-30 | 14,7 | none | Compare quotes early
+Car registration | 2026-12-01 | 30,0
+Furnace filter change | 2027-03-01 | 0 | monthly | Filter size: MERV 11
+Library books due | 2026-11-20 | 3,0

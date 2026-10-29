@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ics-reminder-maker"
+version = "1.0.0"
+description = "Turn a plain reminders.txt into RFC 5545 .ics calendar files with all-day events and lead-time alerts. Fully offline."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Asdale Dynamics, LLC" },
+]
+keywords = ["calendar", "ics", "reminders", "icalendar", "rfc5545", "offline"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Office/Business :: Scheduling",
+]
+
+[project.scripts]
+ics-reminder-maker = "ics_reminder_maker.cli:main"
+
+[tool.setuptools]
+packages = ["ics_reminder_maker"]

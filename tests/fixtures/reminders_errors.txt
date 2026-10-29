@@ -1,0 +1,8 @@
+Good reminder | 2026-11-15 | 7,0
+Bad date | 2026-13-15 | 7
+Not a date | 15-11-2026
+No date field | 
+Range backwards | 2026-11-30..2026-11-01
+Bad lead | 2026-12-01 | thirty
+Negative lead | 2026-12-01 | -3
+Bad recurrence | 2026-12-01 | 7 | weekly | note
